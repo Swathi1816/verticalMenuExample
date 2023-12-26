@@ -1,0 +1,182 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+
+nav{
+    background-color: darkred;
+    width: 10%;
+    height: 100vh;
+}
+#container{
+    list-style-type: nonee;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+a:hover{
+    background-color: burlywood;
+}
+
+#vegMenu{
+    list-style-type: none;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+     display: none; 
+}
+
+#veg{
+    position: relative;
+}
+
+#veg:hover #vegMenu{
+    display: block;
+}
+
+#nonvegMenu{
+    list-style-type: none;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+#nonveg{
+    position: relative;
+}
+
+#nonveg:hover #nonvegMenu{
+    display: block;
+}
+
+#breakfastMenu{
+    list-style-type: none;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+#bf{
+    position: relative;
+}
+
+#bf:hover #breakfastMenu{
+    display: block;
+}
+
+#lunchMenu{
+    list-style-type: none;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+#lunch{
+    position: relative;
+}
+
+#lunch:hover #lunchMenu{
+    display: block;
+}
+
+#dinnerMenu{
+    list-style-type: none;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+#dinner{
+    position: relative;
+}
+
+#dinner:hover #dinnerMenu{
+    display: block;
+}
+
+#breakfastMenu1{
+    list-style-type: none;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+#bf1{
+    position: relative;
+}
+
+#bf1:hover #breakfastMenu1{
+    display: block;
+}
+
+#lunchMenu1{
+    list-style-type: none;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+#lunch1{
+    position: relative;
+}
+
+#lunch1:hover #lunchMenu1{
+    display: block;
+}
+
+#dinnerMenu1{
+    list-style-type: none;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+#dinner1{
+    position: relative;
+}
+
+#dinner1:hover #dinnerMenu1{
+    display: block;
+}
+
+
+
